@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Calendrier Doigt dans le Cul</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container text-center my-5">
+        <div class="img-container">
+            <img src="calendar.png" alt="Calendrier Doigt dans le Cul" class="img-fluid mb-4">
+        </div>
+        <h1>Le calendrier de Léon "Doigt dans le Cul"</h1>
+        <p class="lead">Prix de base: 20€</p>
+        <p>
+        <ul>
+            <li>Format A3</li>
+            <li>Papier glacé</li>
+            <li>Reliure en métal</li>
+            <li>Livraison incluse pour la France métropolitaine</li>
+        </ul>
+        </p>
+        <p>⚠️ Pour les expéditions hors France métropolitaine demander directement <a href="https://discord.dremixam.com/">sur le Discord</a>.</p>
+        <div class="form-group">
+            <!-- ... (votre code HTML existant) ... -->
+            <label for="additional-amount">Je souhaite ajouter un montant de soutient à ma commande</label>
+            <div class="input-group">
+                <input type="number" id="additional-amount" class="form-control" placeholder="0.00" step="1.00">
+            </div>
+            <div>
+                <p>Total: <span id="total-amount">20.00</span>€</p>
+            </div>
+            <!-- ... (votre code HTML existant) ... -->
+
+        </div>
+        <div id="paypal-button-container"></div>
+    </div>
+
+    <script
+        src="https://www.paypal.com/sdk/js?currency=EUR&client-id=AWSA2Qsa22cRCiG2BO_j_jNuZ_7AwqIuHZHpDAhT5xbVuUcW_z-k4TDqabX-c61mnlL7Fkkrjqw5lt6h"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

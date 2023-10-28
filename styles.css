@@ -1,0 +1,67 @@
+body {
+    background-color: #f0f0f0;
+    background-image: url(background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5em;
+}
+
+a {
+    color:#007bff;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid {
+    max-width: 100%;
+    /* L'image ne dépassera pas la largeur du conteneur */
+    max-height: 100%;
+    max-height: 50vh;
+    height: auto;
+    /* Conserve les proportions de l'image */
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    /* Centre l'image horizontalement */
+    align-items: center;
+    /* Centre l'image verticalement */
+    max-height: 50vh;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+}
+
+.form-control {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
