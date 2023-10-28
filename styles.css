@@ -66,3 +66,14 @@ a {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
 
+.footer {
+    margin-top: 1em;
+    font-size: 0.75em;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
